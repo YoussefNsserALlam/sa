@@ -1,0 +1,44 @@
+.ww{
+    direction: rtl;
+}
+.ww .active{
+    margin: 5px;
+    text-align: center;
+    transition: 1s linear;
+}
+.ww .acr{
+    border-radius: 4px;
+    background-color: #00cec9;
+    box-shadow: 0px 0px 15px 0px #00000029;
+}
+.ww .active:hover{
+    border-radius: 4px;
+    background-color: #00cec9;
+    box-shadow: 0px 0px 15px 0px #00000029;
+    color: whitesmoke;
+}
+.rtr{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+}
+.carousel-inner div img{
+    filter: brightness(0.5) !important;
+    height: 400px;
+}
+.card{
+    border: none !important;
+    text-align: center;
+}
+.card i{
+    font-size: 40px;
+}
+.fd_con{
+    text-align: center;
+}
+.m_top{
+    margin-top:15px;
+}
